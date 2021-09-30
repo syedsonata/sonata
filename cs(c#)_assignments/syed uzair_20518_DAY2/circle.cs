@@ -62,6 +62,13 @@ namespace VsHelloworld
 
             Console.WriteLine("The area of the circle with radius of " + radius + " is " + c1.getArea()
                     + " with diameter of " + c1.getDiameter() + " and with circumference of " + c1.getCircumference());
+            Console.WriteLine("lets change the radius,enter a new radius values");
+            double radius1 = double.Parse(Console.ReadLine());
+            c1.setRadius(radius1);
+            radius = c1.getRadius();
+            Console.WriteLine("The area of the circle with radius of " + radius + " is " + c1.getArea()
+                    + " with diameter of " + c1.getDiameter() + " and with circumference of " + c1.getCircumference());
+
         }
     }
 }
