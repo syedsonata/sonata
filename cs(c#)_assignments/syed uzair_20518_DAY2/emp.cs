@@ -60,7 +60,7 @@ namespace oops_concepts
     {
         static void Main(string[] args)
         {
-            EmpSalary emp1 = new EmpSalary("syed", 20792, 6000, 1000, 500);
+            EmpSalary emp1 = new EmpSalary("syed", 30785, 4000, 1230, 1000);
 
             Console.WriteLine("Hello" + emp1.getName() + ".\n Emp ID:" + emp1.geteid() + ".\n Basic salary:" + emp1.getBasic() + ".\n HR Allowance:" + emp1.getHr() + ".\n Travel Allowance:" + emp1.getTrvl()+".\n Tax:" + emp1.tax() + ".\n Gross" + emp1.gross());
         }
